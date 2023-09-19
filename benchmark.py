@@ -4,8 +4,8 @@ print("Laweens")
 
 #exercise 2
 
-Favoriteshow = "Regular Show"
-print(Favoriteshow)
+FavoriteShow = "Regular Show"
+print(FavoriteShow)
 
 #exercise 3 
 
@@ -18,7 +18,7 @@ print (height * age)
 print ("Im going to break")
 
 #exercise 5
-list = ("pizza,burgers,popeyes,chick-fil-a ")
+list = ["pizza","burgers","popeyes" ]
 print(list)
 
 #exercise 6 
@@ -27,9 +27,8 @@ if age > 21 :
 else: print ("Your beat")
 
 #exercise 7
-name = ("")
-input (name)
-print (name)
+name = input("what is your name? law")
+print ("Hello, " + name)
 
 #exercise #8 
 for item in list : print (list)
