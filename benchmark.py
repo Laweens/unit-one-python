@@ -31,7 +31,7 @@ name = input("what is your name? law")
 print ("Hello, " + name)
 
 #exercise #8 
-for item in list : print (list)
+for item in list : print (item)
 
 #exercise 9 
 while height > 7 : print ("7 footer and above")
