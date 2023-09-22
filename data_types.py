@@ -18,7 +18,7 @@ it's positive, negative, or zero using if-elif-else statements.
 num = int(input("Say any number you can think of"))
 if num > 0 : 
     print ("Thats a positive number") 
-elif  num > 0 : 
+elif  num < 0 : 
     print("Thats a negative number") 
 else: 
     print("The number is zero")
