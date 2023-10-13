@@ -13,9 +13,9 @@ greet("THE BIG DROPPP")
 # Task 2: Sum of Two Numbers
 # Write a function `sum_numbers(a, b)` that takes two numbers as parameters and returns their sum.
 
-def sum(a,b):
-    print( a+b)
-sum(2,3)  
+def sum(a,b): #defines the function
+    print( a+b) #prints the sum of our two values A and B
+sum(2,3) #gives a and b 
 
 #made a function that takes a and b as the perimeter and adds them.
 #we make our perimeter sum equal to 2 and 3 
@@ -24,8 +24,8 @@ sum(2,3)
 # Task 3: Calculate Factorial
 # Write a function `factorial(n)` that calculates the factorial of a given number `n`.
 
-def factorial(num):
-    n = 1
+def factorial(num): #defines the function
+    n = 1 
     for i in range (1,num + 1):
         n = n *1
         print("the factorial of", num, "is", n)
@@ -47,7 +47,7 @@ is_even(22)
 # Task 5: Calculate Area of a Rectangle
 # Write a function `calculate_area(length, width)` that calculates and returns the area of a rectangle given its length and width.
 
-def calculate_area(length, width):
-   print(length * width)
+def calculate_area(length, width): #defines the function and gives it values 
+   print(length * width) #prints the sum of length times width 
 
-calculate_area( 20, 23)
+calculate_area( 20, 23) #gives length and width number values 
