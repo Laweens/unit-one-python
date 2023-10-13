@@ -7,6 +7,8 @@ def greet(name):
 
 greet("THE BIG DROPPP")
 
+#we made a function greet and gave it name as a perimeter. 
+#we then simply make it print hello and whatever we make our parimeter equal to.
 
 # Task 2: Sum of Two Numbers
 # Write a function `sum_numbers(a, b)` that takes two numbers as parameters and returns their sum.
@@ -14,6 +16,10 @@ greet("THE BIG DROPPP")
 def sum(a,b):
     print( a+b)
 sum(2,3)  
+
+#made a function that takes a and b as the perimeter and adds them.
+#we make our perimeter sum equal to 2 and 3 
+#then a and b is added and printed 
 
 # Task 3: Calculate Factorial
 # Write a function `factorial(n)` that calculates the factorial of a given number `n`.
