@@ -60,15 +60,15 @@ class BankAccount:
         self.Owner = Owner 
     
     def balances(self):
-        print(f"{self.Owner} +  currently has: " + {self.Balance})
+        print("{self.Owner} +  currently has: " + str(self.Balance))
 
     def withdraw(self, take):
         self.Balance = self.Balance - take
-        print("your new balance is" + {self.Balance})
+        print("your new balance is" + str(self.Balance))
 
     def deposit(self, dep):
         self.Balance = self.Balance + dep 
-        print("Balance currently is" + {self.Balance})
+        print("Balance currently is" + str(self.Balance))
 
 LaweensAccount = BankAccount(50000, "Laweens")
 
