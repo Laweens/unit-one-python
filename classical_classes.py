@@ -64,11 +64,11 @@ class BankAccount:
 
     def withdraw(self, take):
         self.Balance = self.Balance - take
-        print("your new balance is" + str(self.Balance))
+        print("your new balance is " + str(self.Balance))
 
     def deposit(self, dep):
         self.Balance = self.Balance + dep 
-        print("Balance currently is" + str(self.Balance))
+        print("Balance currently is " + str(self.Balance))
 
 LaweensAccount = BankAccount(50000, "Laweens")
 
